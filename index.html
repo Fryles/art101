@@ -1,38 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<!-- This title is used for tabs and bookmarks -->
-	<title>MyName's Homepage</title>
+	<head>
+		<!-- This title is used for tabs and bookmarks -->
+		<title>MDCH</title>
 
-	<!-- Use UTF character set, a good idea with any webpage -->
-	<meta charset="UTF-8" />
-	<!-- Set viewport so page remains consistently scaled w narrow devices -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Use UTF character set, a good idea with any webpage -->
+		<meta charset="UTF-8" />
+		<!-- Set viewport so page remains consistently scaled w narrow devices -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<!-- Include a sitewide CSS file for consistent styling across the site -->
-	<link rel="stylesheet" type="text/css" href="css/site.css">
-	<!-- Lab-specifc CSS file for any special styling of this particular page -->
-	<link rel="stylesheet" type="text/css" href="css/homepage.css">
-	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+		<!-- Include a sitewide CSS file for consistent styling across the site -->
+		<link rel="stylesheet" type="text/css" href="css/site.css" />
+		<!-- Lab-specifc CSS file for any special styling of this particular page -->
+		<link rel="stylesheet" type="text/css" href="css/homepage.css" />
+		<!-- Link to javascript file - DEFER waits until all elements are rendered -->
 
-	<!-- <script type="text/javascript" src="./js/lab.js" DEFER></script> -->
-</head>
-<body>
-	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
-	<main id="content">
-		<section>
-			<h1>MyName's Homepage</h1>
-			<div class="minor-section">
+		<!-- <script type="text/javascript" src="./js/lab.js" DEFER></script> -->
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+		<main id="content">
+			<section>
+				<h1 class="centered">Myles' Homepage</h1>
+				<h3 class="centered">we got the kirbster</h3>
+				<div class="minor-section">
 					<!-- Note that all filenames use lowercase and no spaces -->
-					<img class="cat-photo" src="./img/cute-grey-kitten.jpg">
+					<div class="gallery">
+						<img src="https://media.tenor.com/5Q3rGpMAlq8AAAAC/kirby-headphones.gif">
+					</div>
 					<h2>About Me</h2>
-					<p>Tell us about yourself. Add photos. Customize this. Go crazy.</p>
-			</div>
-
-		</section>
-		<nav id="links">
-			<!-- Put links to labs here. -->
-		</nav>
-	</main>
-</body>
+					<p>
+						I do cool stuff at times, most of it is my special take on
+						creativity with code.
+					</p>
+					<h2>Pick a song for kirby to bump (or drag your own)</h2>
+					<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5u1vw4nmCG8iuerg6ppBf0?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+					<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/034jvsVh9m8f2lRMvNeHWv?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+					<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6rqot498PSzyAq1tEn4BFD?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+			</section>
+			<nav id="links">
+				<!-- Put links to labs here. -->
+			</nav>
+		</main>
+	</body>
 </html>
