@@ -1,5 +1,14 @@
-
-.cat-photo {
-  margin: 10px;
-  max-width: 500px;
+#mypic {
+	width: 20%;
+	height: auto;
+}
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #3ba7ff;
+}
+a:hover {
+	color: rgb(222, 241, 255);
+	text-decoration: underline;
+	text-shadow: 0 0 5px #fff;
 }
