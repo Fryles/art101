@@ -1,6 +1,51 @@
-#mypic {
-	width: 20%;
-	height: auto;
+html,
+body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-size: 1.1rem;
+}
+#directory {
+	margin: 0 20px;
+}
+#songs {
+	margin: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 90vw;
+	margin-bottom: 40px;
+}
+#songs iframe {
+	margin: 10px;
+	flex-grow: 0;
+	width: 400px;
+}
+#kirbster {
+	mix-blend-mode: screen;
+}
+#kirbstersection {
+	text-align: center;
+}
+.card {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+	width: 50%;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #93a2ac;
+	color: #000;
+	text-align: center;
+	border-radius: 10px;
+}
+.card img {
+	width: 15vw;
+	margin: 0 10px;
+	border: #000 3px solid;
+	border-radius: 5px;
 }
 a {
 	text-decoration: none;
@@ -11,4 +56,13 @@ a:hover {
 	color: rgb(222, 241, 255);
 	text-decoration: underline;
 	text-shadow: 0 0 5px #fff;
+}
+#particles-js {
+	width: 100%;
+	height: 100%;
+	background: #111111;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -100;
 }
