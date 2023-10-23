@@ -1,6 +1,10 @@
-//wait for all js to load vanilla js
+// Homepage js code
+// Myles Marr <mmarr@ucsc.edu>
+// October 22, 2023
+
+// wait for all scripts and DOM to load
 window.addEventListener("load", function () {
-	//particles config from documentation
+	//particles config (all code is from documentation https://github.com/VincentGarreau/particles.js/)
 
 	particlesJS("particles-js", {
 		particles: {
