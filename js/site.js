@@ -63,20 +63,21 @@ window.addEventListener("load", function () {
 			},
 		},
 		interactivity: {
-			detect_on: "canvas",
+			detect_on: "window",
 			events: {
 				onhover: {
 					enable: true,
 					mode: "grab",
 				},
 				onclick: {
-					enable: false,
+					enable: true,
+					mode: "push",
 				},
 				resize: true,
 			},
 			modes: {
 				grab: {
-					distance: 140,
+					distance: 120,
 					line_linked: {
 						opacity: 1,
 					},
@@ -93,7 +94,7 @@ window.addEventListener("load", function () {
 					duration: 0.4,
 				},
 				push: {
-					particles_nb: 4,
+					particles_nb: 8,
 				},
 				remove: {
 					particles_nb: 2,
