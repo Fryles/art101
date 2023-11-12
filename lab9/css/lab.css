@@ -1,0 +1,103 @@
+/*
+css spin from https://jsfiddle.net/gionaf/Ugc5g/'
+rainbow from https://codepen.io/nohoid/pen/eYXpNL
+*/
+.minor-section {
+	padding: 10px;
+	margin-bottom: 10px;
+	border: solid 1px #888;
+	background-color: #ddd8c4;
+	color: #000;
+}
+
+.output {
+	display: flex;
+
+	justify-content: space-between;
+}
+.output img {
+	max-width: 400px;
+}
+
+.special {
+	background: linear-gradient(
+		124deg,
+		#ff2400,
+		#e81d1d,
+		#e8b71d,
+		#e3e81d,
+		#1de840,
+		#1ddde8,
+		#2b1de8,
+		#dd00f3,
+		#dd00f3
+	);
+	background-size: 1800% 1800%;
+
+	-webkit-animation: rainbow 18s ease infinite, spin 1s linear infinite;
+	-z-animation: rainbow 18s ease infinite, spin 1s linear infinite;
+	-o-animation: rainbow 18s ease infinite, spin 1s linear infinite;
+	animation: rainbow 18s ease infinite, spin 1s linear infinite;
+}
+
+@-moz-keyframes spin {
+	100% {
+		-moz-transform: rotate(360deg);
+	}
+}
+@-webkit-keyframes spin {
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+@keyframes spin {
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes rainbow {
+	0% {
+		background-position: 0% 82%;
+	}
+	50% {
+		background-position: 100% 19%;
+	}
+	100% {
+		background-position: 0% 82%;
+	}
+}
+@-moz-keyframes rainbow {
+	0% {
+		background-position: 0% 82%;
+	}
+	50% {
+		background-position: 100% 19%;
+	}
+	100% {
+		background-position: 0% 82%;
+	}
+}
+@-o-keyframes rainbow {
+	0% {
+		background-position: 0% 82%;
+	}
+	50% {
+		background-position: 100% 19%;
+	}
+	100% {
+		background-position: 0% 82%;
+	}
+}
+@keyframes rainbow {
+	0% {
+		background-position: 0% 82%;
+	}
+	50% {
+		background-position: 100% 19%;
+	}
+	100% {
+		background-position: 0% 82%;
+	}
+}
