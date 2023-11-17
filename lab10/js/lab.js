@@ -14,6 +14,7 @@ function generateRandomText() {
 	return text.slice(randStart, randStart + randLen);
 }
 var convoClass = "self";
+
 $("#make-convo").click(function () {
 	$("#output").append(
 		'<div class="text ' +
