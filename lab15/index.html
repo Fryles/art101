@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lab 15: AJAX</title>
+
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" type="text/css" href="../css/site.css" />
+		<link rel="stylesheet" type="text/css" href="css/lab.css" />
+		<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+		<script src="js/lab.js" defer></script>
+	</head>
+	<body>
+		<h1>Lab 15: AJAX</h1>
+		<div class="minor-section" id="challenge">
+			<h2>Challenge</h2>
+			<p>Experiment with jQuery and AJAX with APIs.</p>
+		</div>
+
+		<div class="minor-section" id="problems">
+			<h2>Problems</h2>
+			<p>
+				I encountered no major problems while working on this lab, but ran into some formatting issues. I realized that my divs we're not properly nested, and that I had to move some of my divs around to get the desired effect. I also had to change some to spans to avoid line breaks.
+			</p>
+		</div>
+		<div class="minor-section" id="results">
+			<h2>Results</h2>
+			Enter your name to see what my APIs think about you!<br>
+			<input id="name" type="text" autocomplete="given-name" placeholder="John">
+			<button id="activate">Profile Me!</button>
+			<div id="output" hidden>
+				Based on just your name, my APIs (probably incorrectly) tell me that:<br>
+				Your name sounds like its from <span id="nat"></span>!<br>
+				Also sounds like you are possibly a <span id="gen"></span>, but who really knows....<br>
+				And about <span id="age"></span> years old!<hr>
+				Also your IP address is: <span id="ip"></span>, and you're using <span id="os"></span> on <span id="browser"></span> near <span id="loc"></span><br>
+				... sorry had to check.
+			</div>
+		</div>
+	</body>
+</html>
